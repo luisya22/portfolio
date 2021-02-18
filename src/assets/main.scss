@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-background-color;
+
+}
+
+h1{
+  @apply font-sans;
+}
+
+p{
+  @apply font-serif;
+}
+
+.main-button{
+  @apply bg-accent-color text-black p-3 font-bold font-sans;
+}
+
+.profile-picture{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
